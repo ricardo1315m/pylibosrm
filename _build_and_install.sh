@@ -16,7 +16,7 @@ workdir="$(mktemp -d)"
 trap 'rm -rf "$workdir"' EXIT
 cd "$workdir"
 
-git clone --recurse-submodules https://github.com/HoverHell/pylibosrm.git
+git clone --recurse-submodules https://github.com/ricardo1315m/pylibosrm.git
 cd pylibosrm
 
 ./_build_osrm.sh
